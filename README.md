@@ -1,4 +1,6 @@
 # Sleeping Server Stopper
+[![Modrinth](https://img.shields.io/badge/Modrinth-EmptyServerStopper-green?logo=modrinth&logoColor=white)](https://modrinth.com/project/nuRsj5Nz) Get on Modrinth!
+
 This mod is a port of the [Sleeping Server Stopper Spigot plugin](https://github.com/vincss/mcEmptyServerStopper). Supported versions are:
 
 | MC Version ↓ / Plugin Version → | **3.0.0** | **2.0.0** | **1.0.0** |
