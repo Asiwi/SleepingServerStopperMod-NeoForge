@@ -51,6 +51,10 @@ public class SleepingServerStopperMod {
         shutdownOnLaunch = SleepingServerStopperModCommonConfig.SHUTDOWN_SERVER_ON_LAUNCH.get();
         LOGGER.info("[SSS] TIME = " + shutdownTime);
         LOGGER.info("[SSS] BOOL = " + shutdownOnLaunch);
+
+        if (shutdownOnLaunch) {
+            countPlayers();
+        }
     }
 
     // Server stopping Event.
@@ -78,9 +82,7 @@ public class SleepingServerStopperMod {
     public void onServerStart(MinecraftServer server) {
         SleepingServerStopperMod.server = server;
 
-        if (shutdownOnLaunch) {
-            countPlayers();
-        }
+
     }
 
     public void countPlayers() {
