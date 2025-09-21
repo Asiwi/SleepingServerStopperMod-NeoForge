@@ -1,0 +1,13 @@
+{
+  "itemGroup.sleepingserverstopper": "Example Mod Tab",
+  "block.sleepingserverstopper.example_block": "Example Block",
+  "item.sleepingserverstopper.example_item": "Example Item",
+
+  "sleepingserverstopper.configuration.title": "Sleeping Server Stopper Configs",
+  "sleepingserverstopper.configuration.section.sleepingserverstopper.common.toml": "Sleeping Server Stopper Configs",
+  "sleepingserverstopper.configuration.section.sleepingserverstopper.common.toml.title": "Sleeping Server Stopper Configs",
+  "sleepingserverstopper.configuration.items": "Item List",
+  "sleepingserverstopper.configuration.logDirtBlock": "Log Dirt Block",
+  "sleepingserverstopper.configuration.magicNumberIntroduction": "Magic Number Text",
+  "sleepingserverstopper.configuration.magicNumber": "Magic Number"
+}
